@@ -5,8 +5,6 @@ from django import template
 from django.contrib.sites.models import Site
 from django.template.defaultfilters import stringfilter
 
-__author__ = u'Oliver Beattie'
-
 register = template.Library()
 
 # Pattern for matching an absolute URL
